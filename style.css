@@ -1,0 +1,86 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png");
+    background-color: #111;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#name, #picture {
+    width: 8%;
+    text-align: start;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+#name:focus, #picture:focus {
+    width: 11%;
+    border: 2px solid rgb(48, 131, 247);
+}
+
+#addUser {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    background: rgb(48, 131, 247);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#addUser:hover {
+    transform: scale(1.2);
+}
+
+table tbody td button {
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 46, 46);
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.63);
+    transition: all 0.25s;
+}
+
+table tbody td button:hover {
+    box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.638);
+}
+
+table tbody tr td img {
+    height: 60px;
+    width: 60px;
+}
+
+table tbody tr .pic {
+    height: 60px;
+    width: 60px;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: white;
+}
+
+th,
+tr,
+td {
+    border: solid 1px white;
+    color: white;
+}
